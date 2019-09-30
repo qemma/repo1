@@ -1,0 +1,74 @@
+/* Typography */
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1em;
+  margin-bottom: 16px;
+  @include border-radius($borderRadius);
+  &.card-w-title {
+    padding-bottom: 2em;
+  }
+  h1 {
+    margin: 0.5em 0 0.5em 0;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0.1em;
+    font-size: 24px;
+    &:first-child {
+      margin: 0 0 0.5em 0;
+    }
+  }
+}
+
+.p-g {
+  -ms-flex-wrap: wrap;
+}
+
+.generic-label {
+  color: #898989;
+  font-size: 12px;
+}
+
+.p-dropdown-filter {
+  &.p-inputtext {
+    border-radius: 3px !important;
+    border: 1px solid #a6a6a6 !important;
+  }
+}
+
+th {
+  .p-column-title {
+    display: inline-block !important;
+  }
+}
+
+.p-col-m {
+  display: none;
+}
+
+.p-autocomplete-multiple-container {
+  width: 100%;
+}
+
+.p-organizationchart {
+  .p-organizationchart-node-content {
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+  }
+}
+
+.p-tooltip {
+  z-index: 120000 !important;
+}
